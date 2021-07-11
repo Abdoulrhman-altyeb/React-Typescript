@@ -1,0 +1,16 @@
+import React, { useState, useRef } from "react";
+import Header from './Header'
+
+
+const App:React.FC  = () => {
+
+
+  return (
+    <div>
+      <h1>hello</h1>
+      <Header />
+    </div>
+  )
+}
+
+export default App;

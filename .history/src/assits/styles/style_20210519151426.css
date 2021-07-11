@@ -1,0 +1,40 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body {
+    background:#262626;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar-thumb{
+    background:red
+}
+img,svg{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+.container {
+    width:90%;
+    max-width:1200px;
+    margin: 0 auto;
+}
+
+.hero__img {
+    height:600px;
+}
+ul {
+    list-style: none;
+}
+p, h1, span,h3 {
+    color:#8c8484
+}
+a {
+    text-decoration: none;
+    color:#8c8484;
+    font-size:0.8rem;
+}
